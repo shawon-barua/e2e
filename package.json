@@ -1,0 +1,15 @@
+{
+  "name": "snow-angular-e2e",
+  "version": "1.0.0",
+  "description": "End to end test suites for snow angular app", 
+  "scripts": {
+    "postinstall": "webdriver-manager update",
+    "test": "protractor protractor.conf.js"
+  },
+  "devDependencies": {    
+    "jasmine-spec-reporter": "4.1.0",
+    "protractor": "5.1.1",
+    "protractor-jasmine2-screenshot-reporter": "0.3.5",
+	"webdriver-manager": "12.0.5"
+  }
+}
